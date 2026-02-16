@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Level Assignment One</title>
+    <!-- DaijiUI Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google fonts cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts integrition -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section in navigation var -->
+    <header class="bg-gray-200 shadow-sm">
+        <div class="navbar  text-blue-600 w-10/12 mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="product.html">Products</a></li>
+                        <li ><a>About</a></li>
+                        <li ><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a href="" class="text-xl font-semibold">SwiftCart</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li class="menu-active"><a href="index.html">Home</a></li>
+                    <li ><a href="product.html">Products</a></li>
+                    <li ><a>About</a></li>
+                    <li ><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end ">
+                <a class=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Bannar Section -->
+    <section>
+        <div class="hero" style="background-image: url(./Assets/banner-image.png);">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-neutral-content text-start">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-4xl font-bold">Best Collection For You</h1>
+                    <p class="mb-5 text-sm text-gray-400">
+                        class="text-gray-400 text-sm">Discover the latest trends in fashionm, electronics, and more,
+                        shop with confidence and style at SwiftCart
+                    </p>
+                    <button class="btn btn-primary">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commitment Section -->
+    <section class=" w-10/12 mx-auto my-15">
+        <div class="text-center mb-10">
+            <h3 class="text-2xl font-semibold">Why Choose Us</h3>
+            <p class="text-sm text-gray-500">We provide the best shopping experience with top-match services</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10 ">
+            <div class="space-y-5 bg-gray-50 shadow-md px-3 py-5 rounded-sm">
+                <button class="btn"><i class="fa-regular fa-truck text-blue-400 font-semibold"></i></button>
+                <h3 class="text-sm font-semibold">Fast Delivery</h3>
+                <p class="text-xs text-gray-500">Get your orders delivered to your doorstep quickly and efficiently.</p>
+            </div>
+            <div class="space-y-5 bg-gray-50 shadow-md px-3 py-5 rounded-sm">
+                <button class="btn"><i class="fa-regular fa-headphones text-blue-400 font-semibold"></i></button>
+                <h3 class="text-sm font-semibold">24/7 Support</h3>
+                <p class="text-xs text-gray-500">Our support team is available around the clock to assist you.</p>
+            </div>
+            <div class="space-y-5 bg-gray-50 shadow-md px-3 py-5 rounded-sm">
+                <button class="btn"><i class="fa-regular fa-calendar-check text-blue-400 font-semibold"></i></button>
+                <h3 class="text-sm font-semibold">Secure Payment</h3>
+                <p class="text-xs text-gray-500">Experience safe and secure transactions with our encrypted payment
+                    systems.</p>
+            </div>
+            <div class="space-y-5 bg-gray-50 shadow-md px-3 py-5 rounded-sm">
+                <button class="btn"><i class="fa-solid fa-arrow-rotate-left text-blue-400 font-semibold"></i></button>
+                <h3 class="text-sm font-semibold">Easy Returns</h3>
+                <p class="text-xs text-gray-500">Not satisfied? Return your products easily within 30 days.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-10/12 mx-auto mb-10">
+        <h1 class="font-bold text-4xl mb-10">Trending Now</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="bg-gray-50 p-5 shadow-sm rounded-sm space-y-3">
+                <img class="h-100" src="./Assets/bag.png" alt="">
+                <div class="flex justify-between items-center">
+                    <p class="btn text-xs text-blue-700">Man's Clothing</p>
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-star text-yellow-400"></i>
+                        <p>3.9 (202)</p>
+                    </div>
+                </div>
+                <h3 class="font-semibold text-xl line-clamp-1">Fjallraven - Foldsack No. 1 Backpack,</h3>
+                <p class="font-bold text-xl">$109.95</p>
+                <div class="flex gap-2 justify-between items-center flex-wrap">
+                    <button class="btn text-gray-500 flex-1"><i class="fa-regular fa-eye"></i> Details</button>
+                    <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-shopping"></i>
+                        Add</button>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-5 shadow-sm rounded-sm space-y-3">
+                <img class="h-100" src="./Assets/t-shirt.png" alt="">
+                <div class="flex justify-between items-center">
+                    <p class="btn text-xs text-blue-700">Man's Clothing</p>
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-star text-yellow-400"></i>
+                        <p>3.9 (202)</p>
+                    </div>
+                </div>
+                <h3 class="font-semibold text-xl line-clamp-1">Mens Casual Premium Slim Fit T-</h3>
+                <p class="font-bold text-xl">$22.3</p>
+                <div class="flex gap-2 justify-between items-center flex-wrap">
+                    <button class="btn text-gray-500 flex-1"><i class="fa-regular fa-eye"></i> Details</button>
+                    <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-shopping"></i>
+                        Add</button>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-5 shadow-sm rounded-sm space-y-3">
+                <img class="h-100" src="./Assets/shirt.png" alt="">
+                <div class="flex justify-between items-center">
+                    <p class="btn text-xs text-blue-700">Man's Clothing</p>
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-star text-yellow-400"></i>
+                        <p>3.9 (202)</p>
+                    </div>
+                </div>
+                <h3 class="font-semibold text-xl line-clamp-1">Mens Cotton Jacket-</h3>
+                <p class="font-bold text-xl">$55.99</p>
+                <div class="flex gap-2 justify-between items-center flex-wrap">
+                    <button class="btn text-gray-500 flex-1"><i class="fa-regular fa-eye"></i> Details</button>
+                    <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-shopping"></i>
+                        Add</button>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 pb-10 ">
+        <div class="w-10/12 mx-auto">
+            <div class="flex flex-col md:flex-row gap-4 pt-15">
+                <div class="flex-2 space-y-4">
+                    <h2 class="text-4xl text-blue-500 font-bold">SwiftCart</h2>
+                    <p class="text-justify pr-15 text-gray-300 font-semibold">Your one-stop shop for all your fashion
+                        and lifestyle needs. Quality products, fast delivery, and excellent support.</p>
+                </div>
+                <div class="flex-1">
+                    <ul class="space-y-5">
+                        <li class="font-semibold text-gray-400"><a href="">QUICK LINKS</a></li>
+                        <li class="text-gray-200"><a href="">Home</a></li>
+                        <li class="text-gray-200"><a href="">Products</a></li>
+                        <li class="text-gray-200"><a href="">About</a></li>
+                        <li class="text-gray-200"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex-1">
+                    <ul class="space-y-5">
+                        <li class="font-semibold text-gray-400"><a href="">SUPPORT</a></li>
+                        <li class="text-gray-200"><a href="">FAQ</a></li>
+                        <li class="text-gray-200"><a href="">Shipping</a></li>
+                        <li class="text-gray-200"><a href="">Returns</a></li>
+                        <li class="text-gray-200"><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-5 flex-2">
+                    <h2 class="font-semibold text-gray-400">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                    <P class="text-gray-200">The latest news, articles, and resouce, sent to your inbox weekly.</P>
+                    <div class="flex flex-col md:flex-row gap-3">
+                        <input class="p-2 bg-white w-full rounded-sm" type="text" placeholder="Enter your email">
+                        <button class="btn btn-primary w-full md:flex-1">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class=" my-5 text-gray-600 font-bold">
+            <div class="flex flex-col-reverse md:flex-row justify-between items-start md:items-center ">
+                <p class="text-gray-200 ">&copy; 2025 SwiftCart, Inc. All rights reserved</p>
+                <div class="text-gray-200 space-x-4 mb-5 md:mb-0">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

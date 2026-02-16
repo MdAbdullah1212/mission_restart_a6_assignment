@@ -1,0 +1,12 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.active{
+    background: rgb(107, 148, 239);
+    color: white;
+}
+.menu-active{
+    background: rgb(34, 116, 84);
+    color: white;
+}
